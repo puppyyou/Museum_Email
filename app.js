@@ -40,8 +40,8 @@ app.use(methodOverride());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // connecting to database
-app.db = mongoose.connect(process.env.MONGOLAB_URI);
-console.log("connected to database");
+//app.db = mongoose.connect(process.env.MONGOLAB_URI);
+//console.log("connected to database");
 
 // SET UP EMAIL //
 var smtpTransport = nodemailer.createTransport('SMTP',{
