@@ -1,0 +1,215 @@
+ /*WebDesignAndSuch.com*/
+
+@charset "UTF-8";
+/*body {
+	background:#190121;
+	margin: 0; 
+	padding: 0;
+	text-align: center; 
+	color: #000000;
+}*/
+/* #container {
+	width: 780px;  
+	background: #FFFFFF;
+	margin: 0 auto; 
+	font-size:14px;	
+	text-align: left; 
+}*/
+
+
+img {border:0px}
+
+
+/*LINKS*/
+
+#mainContent a:link, #mainContent a:visited {color:#fff; text-decoration:none; font-size:18px; background:#000000; padding:5px; -webkit-border-radius:10px;
+-moz-border-radius:10px}
+#mainContent a:hover, #mainContent a:active {color:#fff; text-decoration:none; font-size:18px; background:#333333; padding:5px; -webkit-border-radius:10px;
+-moz-border-radius:10px}
+
+
+/*STYLES FOR CSS POPUP*/
+
+#blanket {
+   background-color:#FFF;
+   opacity: 0.688;
+   /*background:none;*/
+   position:fixed;
+   z-index: 9001;
+   top:0px;
+   left:0px;
+   width:100%;
+   height: 100%;
+}
+#closeTag p{
+  
+  padding: 15px 0;
+  cursor: pointer;
+  background: #000;
+  color: #FFF;
+  font-weight: bold;
+  border: none;
+  -webkit-appearance: none;
+  margin: 15px 0;
+  text-align: center;
+   /*color: #000000;
+   text-align: center;
+   color:rgb(98, 84, 84);
+   margin: 40px 15px*/;
+}
+
+#openTag {
+	/*background-color: white;*/
+   	text-align: right;
+   	z-index: 3;
+   
+}
+#openTag a{ 
+	  border: 1px #36597c;
+	  border-style: solid;
+	  opacity: 100%;
+	  position: relative;
+	  bottom: 30px;
+	  right: 6%;
+	  color: #3d3f42;
+	  font-size: 1.5rem;
+	  z-index: 3;
+	  font-weight: bold;
+	  padding:5px;
+
+}
+#WindowTitle {
+	text-align: center;
+	font-weight: bold;
+	color:rgb(98, 84, 84);
+	font-size: 2rem;
+}
+#step1{
+/* 	padding: 0 25px;*/
+ 	/*background: transparent url("../image/cd-icon-filter-01.svg") no-repeat ;*/
+}
+#step2{
+/* 	padding: 0 25px;*/
+ 	/*background: transparent url("../image/cd-icon-filter-02.svg") no-repeat ;*/
+}
+#step3{
+/* 	padding: 0 25px;*/
+/* 	background: transparent url("../image/cd-icon-filter-03.svg") no-repeat ;*/
+}
+#windowtext{
+	padding: 10px 25px;
+  margin: 10px auto;
+	text-align: left;
+	color:rgb(98, 84, 84);
+}
+#windowtext p{
+	 margin: 15px;
+	font-size: 1.8rem;
+}
+
+p.thick {
+    font-weight: bold;
+}
+
+#popUpDiv {
+	position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    /*centering the popup windows*/
+	
+	/*background:url(pop-back.jpg) no-repeat;*/
+	background-color: #ffffff;
+	width:600px;
+	height:420px;
+	border:5px solid #000;
+	/*border:5px solid #5d7fa1;*/
+	z-index: 9002;
+	
+}
+
+#popUpDiv a {position:relative; top:0px; left:0px}
+
+#popUpDivEmail {
+	position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /*centering the popup windows*/
+	
+	color:#000;
+	background-color:#FFF;
+	width:600px;
+	height:400px;
+	border:5px solid #5d7fa1;
+	z-index: 9002;		
+}
+
+.EmailForm{
+
+	padding:10px 30px 0px 30px;
+}
+
+.EmailForm .fieldset {
+    margin: 2em 0;
+  }
+
+.EmailForm input.has-padding {
+  padding: 12px 20px 12px 20px;
+  margin: 10px 0 0 0;
+}
+.EmailForm input.has-border {
+  border: 1px solid #d2d8d8;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+.EmailForm input.has-border:focus {
+  border-color: #343642;
+  box-shadow: 0 0 5px rgba(52, 54, 66, 0.1);
+  outline: none;
+}
+
+.EmailForm .fieldset {
+    margin: 2em 0;
+  }
+
+#UserName{
+	width:100%;
+	font-size: 1.8rem;
+}
+
+#UserEmail{
+	width:100%;
+	font-size: 1.8rem;
+}
+
+.EmailcloseTag{
+  padding: 16px 0;
+  cursor: pointer;
+  background: #C32941;
+  color: #FFF;
+  font-weight: bold;
+  border: none;
+  -webkit-appearance: none;
+  margin: 5px 0;
+  text-align: center;
+}
+
+#BacktoPageButton{
+	background: #5D7FA1;
+	font-size: 1.6rem;
+	text-align: center;
+}
+
+ #SendEmailButton a{
+ 	color:#FFF;
+ 	font-size: 1.6rem;
+ 	text-align: center;
+ }

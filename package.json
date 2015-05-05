@@ -1,0 +1,21 @@
+{
+  "name": "a-day-at-the-museum",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.10.1",
+    "express": "^4.10.7",
+    "hogan-express": "^0.5.2",
+    "method-override": "^2.3.1",
+    "moment": "^2.9.0",
+    "request": "^2.51.0",
+    "serve-favicon": "^2.2.0",
+    "mongoose": "^4.0.2",
+    "nodemailer": "0.7.1",
+    "email-templates": "^1.2.1",
+    "handlebars": "^3.0.1"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "2.2.x"
+  }
+}

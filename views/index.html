@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>A Day at the Museum</title>
+	<meta charset="UTF-8">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/png" href="/image/Favicion.png" />
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style_style.css"> <!-- Resource style-->
+	<link rel="stylesheet" href="css/popup.css"type="text/css" /> <!-- CSS for popup window -->
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+</head>
+
+<body>
+
+	<!--POPUP-->  
+	<body   onload="popup('popUpDiv')"><!--  have window popup at the begining -->
+    <div id="blanket" style="display:none;"></div>
+	<div id="popUpDiv" style="display:none; right: 100px;">
+		    	
+    	<!-- Click to Close CSS Pop Up -->
+    			<br>
+	    		<p id="WindowTitle">Ready to create your personal museum memory? </p> <br><br>
+    	<div id="windowtext">
+	    		<p class="thick" id="step1">1. Start</p> <p> Pick four art works <br><br>
+	    		<p class="thick" id="step2">2. Save</p> <p> Print it out in the musuem or email it to yourself <br><br>
+	    		<p class="thick" id="step3">3. Remember</p> <p> Enjoy the personal souvenir!
+	    		</p>
+	    </div>	 
+	    	<div id="closeTag"><a href="/" onclick="popup('popUpDiv')"><p>[ START ]</p></a> 
+    		</div>   		 
+    	
+	</div> <!-- / end of POPUPDiv--> 
+
+   	<header class="cd-header">
+
+		 <h1>
+		 <img id="BKLogo"src="image/headerr-02.jpg" alt="Header">
+         </h1>
+
+	</header>
+
+	<main class="cd-main-content">
+		<div class="cd-tab-filter-wrapper">
+			<div class="cd-tab-filter">
+				<ul class="cd-filters">
+					<li class="placeholder"> 
+						<a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
+					</li> 
+					<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
+					<li class="filter" data-filter=".color-1"><a href="#0" data-type="color-1">Popular this Week</a></li>
+					<li class="filter" data-filter=".color-2"><a href="#0" data-type="color-2">The classic</a>
+					</li>
+				</ul> <!-- cd-filters -->
+			</div> <!-- cd-tab-filter -->
+				<div id="openTag">
+					<a href="#" id="popup" onclick="popup('popUpDiv')" > What is this about ? </a>
+				<!-- Click to Open CSS Pop Up --> 
+			   </div>
+		</div> <!-- cd-tab-filter-wrapper -->
+
+			<div class="cd-gallery">
+				<ul class="imageDisplay">
+
+	            </ul> 
+	    	<li class="gap"></li>   
+
+	        </div> <!-- cd-gallery -->
+	        
+			<div id="selection-wrapper">
+				<div id="selected-image-holder" class="Good_1 Good">
+						<button class="hidden kicker" id="reset_button">Try it again</button>
+						<button class="hidden kicker " id="save_button" onclick="popup('popUpDivEmail')">Send me an Email ➤ </button>
+							
+			    </div>
+			</div> <!--selection-wrapper-->
+			<li class="gap"></li>		
+
+		<div class="cd-filter">
+			<form id="formLeft">
+				<div class="cd-filter-block">
+					<h4>Floor</h4>
+					
+					<div class="cd-filter-content">
+						<div class="cd-select cd-filters">
+							<select class="filter" name="selectThis" id="selectThis">
+								<option value="">Choose a floor</option>
+								<option value=".option1">First Floor</option>
+								<option value=".option2">Second Floor</option>
+								<option value=".option3">Third Floor</option>
+								<option value=".option4">Forth Floor</option>
+							</select>
+						</div> <!-- cd-select -->
+					</div> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+				<div class="cd-filter-block">
+					<h4>Departments</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+
+						<li> 
+							<input class="filter" data-filter=".check1" type="checkbox"id="checkbox1" >
+			    			<label class="checkbox-label" for="checkbox1">Architecture and Design</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check2" type="checkbox" id="checkbox2">
+							<label class="checkbox-label" for="checkbox2"> 
+								Painting and Sculpture
+							</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+							<label class="checkbox-label" for="checkbox3">Media and Performance Art</label>
+							
+						</li>
+						
+						<li>	
+							<input class="filter" data-filter=".check4" type="checkbox" id="checkbox4">
+							<label class="checkbox-label" for="checkbox4">Photography
+							</label>
+							
+						</li>
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+			<!-- 	////////////////// search function //////////////////-->
+				<!-- <div class="cd-filter-block">
+					
+					<h4>Search</h4>
+					<div class="cd-filter-content">
+						<input type="search" placeholder="Try Artist name...">
+					</div> 
+				</div>  -->
+			<!-- 	////////////////// search function //////////////////  -->	
+
+ 			
+
+ 			<!-- 	////////////////// another filter //////////////////  -->	
+
+<!--		<div class="cd-filter-block">
+					<h4>Radio buttons</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter="" type="radio" name="radioButton" id="radio1" checked>
+							<label class="radio-label" for="radio1">All</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".radio2" type="radio" name="radioButton" id="radio2">
+							<label class="radio-label" for="radio2">Choice 2</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".radio3" type="radio" name="radioButton" id="radio3">
+							<label class="radio-label" for="radio3">Choice 3</label>
+						</li>
+					</ul> 
+			</div>  -->
+			<!-- 	////////////////// another filter //////////////////  -->	
+
+
+			</form>
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-filter -->
+		<a href="#0" class="cd-filter-trigger">Filters</a>
+
+	<!--POPUPEmail-->  
+    <div id="blanket" style="display:none;"></div>
+	<div id="popUpDivEmail" style="display:none; right: 100px;">
+		    	
+    	<!-- Click to Close CSS Pop Up -->
+			<br>
+			<form class="EmailForm">
+				<p class="fieldset">
+	    			<label class="image-replace cd-username" for="signup-username"> Name </label>
+					<br>
+					<input class="full-width has-padding has-border" id="UserName" name="UserName" type="text" placeholder="Enter your name here" required>
+				</p>
+					
+				<p class="fieldset">
+					<label class="image-replace cd-email" for="signup-email">E-mail</label>
+					 <br>
+					<input class="full-width has-padding has-border" id="UserEmail" name="email" type="email" placeholder="Enter your E-mail here" required>	
+				</P>
+				<p class="fieldset">	<!-- Submit the email-->
+					<div class="EmailcloseTag" id="SendEmailButton" type="submit" value='SUBMIT'><a href="#">Submit</a>
+	    			</div> 
+
+	    			<div class="EmailcloseTag" id="BacktoPageButton" type="submit" value='Back' onclick="popup('popUpDivEmail')" >Back<a href="/">
+	    			</div>
+
+	    			<!-- <div id="closeTag"><a href="/" onclick="popup('popUpDiv')"><p>[ ^_____^]</p></a> 
+	    			</div>     --> 				
+				</P>
+			</form>
+	</div>
+   <!-- / POPUPEmail--> 
+
+	</main> <!-- cd-main-content -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/mixitup.js"></script>
+<script src="js/selector.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="js/css-pop.js"></script>  <!-- popup window -->
+
+
+</body>
+</html>

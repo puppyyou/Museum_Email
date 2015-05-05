@@ -1,0 +1,312 @@
+[
+	 {"Artist":"Janet Cardiff, George Bures Miller ",
+	 "Floor":"4F",
+	 "Department":"Media and Performance Art",
+	 "Name":"The Killing Machine",
+	 "Img":"http://www.moma.org/collection_images/resized/157/w500h420/CRI_139157.jpg",
+	 "MoMA_Number":250.2008,
+	 "class": [
+                    {"value": "mix color-1"},
+                    {"value": "check3"},
+                    {"value": "radio3"},
+                    {"value": "option4"}]
+    },
+
+	{"Artist":"Henri Matisse",
+	 "Floor":"2F",
+	 "Department":"Painting and Sculpture",
+	 "Name":"Dance",
+	 "Img":"http://www.moma.org/collection_images/resized/112/w500h420/CRI_147112.jpg",
+	 "MoMA_Number":201.1963,
+	 "class": [
+                    {"value": "mix color-2"},
+                    {"value": "check2"},
+                    {"value": "radio3"},
+                    {"value": "option2"}]
+    },
+
+	{"Artist":"Stefan Sagmeister ",
+	 "Floor":"1F",
+	 "Department":"Architecture and Design",
+	 "Name":"Casa da Musica Identity",
+	 "Img":"http://www.moma.org/collection_images/resized/500/w500h420/CRI_215500.jpg",
+	 "MoMA_Number":377.2011,
+	"class": [
+                    {"value": "mix color-1"},
+                    {"value": "check1"},
+                    {"value": "radio2"},
+                    {"value": "option1"}]
+    },
+
+    {"Artist":"Duan Jinchuan ",
+	 "Floor":"4F",
+	 "Department":"Media and Performance Art",
+	 "Name":"No. 16, Barkhor South Street",
+	 "Img":"http://www.moma.org/collection_images/resized/730/w500h420/CRI_250730.jpg",
+	 "MoMA_Number":1330.1999,
+	 "class": [
+                    {"value": "mix color-1"},
+                    {"value": "check3"},
+                    {"value": "radio3"},
+                    {"value": "option4"}]
+    },
+
+    {"Artist":"Charles Herbert Woodbury",
+	 "Floor":"3F",
+	 "Department":"Architecture and Design",
+	 "Name":"The July Century",
+	 "Img":"http://www.moma.org/collection_images/resized/008/w500h420/CRI_10008.jpg",
+	 "MoMA_Number":837.1983,
+	"class": [
+                    {"value": "mix color-1"},
+                    {"value": "check1"},
+                    {"value": "radio2"},
+                    {"value": "option3"}]
+    },
+
+	{"Artist":"Kiki Smith ",
+	 "Floor":"3F",
+	 "Department":"Prints and Illustrated Books",
+	 "Name":"The Falls III",
+	 "Img":"http://www.moma.org/collection_images/resized/689/w500h420/CRI_312689.jpg",
+	 "MoMA_Number":635.2014,
+	 "class": [
+                    {"value": "mix color-1"},
+                    {"value": "check2"},
+                    {"value": "radio3"},
+                    {"value": "option3"}]
+    },
+	{"Artist":"Alfredo Jaar",
+	 "Floor":"2F",
+	 "Department":"Media and Performance Art",
+	 "Name":"Lament of the Images",
+	 "Img":"http://www.moma.org/collection_images/resized/220/w500h420/CRI_196220.jpg",
+	 "MoMA_Number":390.201,
+	 "class": [
+                    {"value": "mix "},
+                    {"value": "check3"},
+                    {"value": "radio3"},
+                    {"value": "option2"}]
+    },
+	{"Artist":"Paul Cézanne ",
+	 "Floor":"2F",
+	 "Department":"Painting and Sculpture",
+	 "Name":"Pines and Rocks (Fontainebleau?)",
+	 "Img":"http://www.moma.org/collection_images/resized/071/w500h420/CRI_151071.jpg",
+	 "MoMA_Number":16.1934,
+	 "class": [
+                    {"value": "mix color-2"},
+                    {"value": "check2"},
+                    {"value": "radio3"},
+                    {"value": "option2"}]
+    },
+
+    {"Artist":"Jonathan Ive, Apple Design Group ",
+	 "Floor":"2F",
+	 "Department":"Architecture and Design",
+	 "Name":"iPod",
+	 "Img":"http://www.moma.org/collection_images/resized/541/w500h420/CRI_133541.jpg",
+	 "MoMA_Number":354.2004,
+	 "class": [
+                    {"value": "mix "},
+                    {"value": "check1"},
+                    {"value": "radio3"},
+                    {"value": "option2"}]
+    },
+
+	{"Artist":"Vincent van Gogh ",
+	 "Floor":"2F",
+	 "Department":"Painting and Sculpture",
+	 "Name":"The Starry Night",
+	 "Img":"http://www.moma.org/collection_images/resized/075/w500h420/CRI_133075.jpg",
+	 "MoMA_Number":472.1941,
+	 "class": [
+                    {"value": "mix color-2"},
+                    {"value": "check2"},
+                    {"value": "radio3"},
+                    {"value": "option2"}]
+    },
+
+    {"Artist":"Claude Monet ",
+	 "Floor":"2F",
+	 "Department":"Painting and Sculpture",
+	 "Name":"On the Cliff at Pourville, Clear Weather",
+	 "Img":"http://www.moma.org/collection_images/resized/405/w500h420/CRI_242405.jpg",
+	 "MoMA_Number":371.1991,
+	 "class": [
+                    {"value": "mix color-2"},
+                    {"value": "check2"},
+                    {"value": "radio3"},
+                    {"value": "option2"}]
+    },
+
+    {"Artist":"Auguste Rodin ",
+	 "Floor":"4F",
+	 "Department":"Painting and Sculpture",
+	 "Name":"The Three Shades",
+	 "Img":"http://www.moma.org/collection_images/resized/251/w500h420/CRI_212251.jpg",
+	 "MoMA_Number":689.1990,
+	 "class": [
+                    {"value": "mix color-2"},
+                    {"value": "check2"},
+                    {"value": "radio3"},
+                    {"value": "option4"}]
+    },
+
+	{"Artist":"Kazimir Malevich ",
+	 "Floor":"2F",
+	 "Department":"Painting and Sculpture",
+	 "Name":"Reservist of the First Division",
+	 "Img":"http://www.moma.org/collection_images/resized/573/w500h420/CRI_185573.jpg",
+	 "MoMA_Number":814.1935,
+	 "class": [
+                    {"value": "mix color-1"},
+                    {"value": "check2"},
+                    {"value": "radio3"},
+                    {"value": "option2"}]
+    },
+
+	{"Artist":"Hank Willis Thomas",
+	 "Floor":"4F",
+	 "Department":"Photography",
+	 "Name":"Jungle Fever, 1987",
+	 "Img":"http://www.moma.org/collection_images/resized/903/w500h420/CRI_234903.jpg",
+	 "MoMA_Number":72.2011,
+	 "class": [
+                    {"value": "mix"},
+                    {"value": "check4"},
+                    {"value": "radio3"},
+                    {"value": "option4"}]
+    },
+
+    {"Artist":"Irma Boom",
+	 "Floor":"3F",
+	 "Department":"Architecture and Design",
+	 "Name":"Ange Leccia",
+	 "Img":"http://www.moma.org/collection_images/resized/730/w500h420/CRI_312730.jpg",
+	 "MoMA_Number":897.2007,
+	"class": [
+                    {"value": "mix color-1"},
+                    {"value": "check1"},
+                    {"value": "radio2"},
+                    {"value": "option3"}]
+    },
+
+	{"Artist":"Stephen Shore",
+	 "Floor":"4F",
+	 "Department":"Photography",
+	 "Name":"Jerusalem, Israel",
+	 "Img":"http://www.moma.org/collection_images/resized/017/w500h420/CRI_268017.jpg",
+	 "MoMA_Number":375.2013,
+	 "class": [
+                    {"value": "mix"},
+                    {"value": "check4"},
+                    {"value": "radio3"},
+                    {"value": "option4"}]
+    },
+
+	{"Artist":"Piet Mondrian ",
+	 "Floor":"1F",
+	 "Department":"Painting and Sculpture",
+	 "Name":"Broadway Boogie Woogie",
+	 "Img":"http://www.moma.org/collection_images/resized/540/w500h420/CRI_203540.jpg",
+	 "MoMA_Number":73.1943,
+	 "class": [
+                    {"value": "mix"},
+                    {"value": "check2"},
+                    {"value": "radio3"},
+                    {"value": "option1"}]
+    },
+
+	{"Artist":"Jasper Johns",
+	 "Floor":"3F",
+	 "Department":"Painting and Sculpture",
+	 "Name":"Flag",
+	 "Img":"http://www.moma.org/collection_images/resized/377/w500h420/CRI_136377.jpg",
+	 "MoMA_Number":106.1973,
+	 "class": [
+                    {"value": "mix color-2"},
+                    {"value": "check2"},
+                    {"value": "radio3"},
+                    {"value": "option3"}]
+    },
+
+	{"Artist":"Umbo (Otto Umbehr) ",
+	 "Floor":"1F",
+	 "Department":"Photography",
+	 "Name":"Stairs II",
+	 "Img":"http://www.moma.org/collection_images/resized/182/w500h420/CRI_62182.jpg",
+	 "MoMA_Number":1891.2001,
+	"class": [
+                    {"value": "mix "},
+                    {"value": "check4"},
+                    {"value": "radio3"},
+                    {"value": "option1"}]
+    },
+
+    {"Artist":"Marc Chagall ",
+	 "Floor":"4F",
+	 "Department":"Painting and Sculpture",
+	 "Name":"I and the Village",
+	 "Img":"http://www.moma.org/collection_images/resized/515/w500h420/CRI_118515.jpg",
+	 "MoMA_Number":146.1945,
+	 "class": [
+                    {"value": "mix color-2"},
+                    {"value": "check2"},
+                    {"value": "radio3"},
+                    {"value": "option4"}]
+    },
+
+	{"Artist":"Yvonne Rainer",
+	 "Floor":"4F",
+	 "Department":"Media and Performance Art",
+	 "Name":"Trio Film",
+	 "Img":"http://www.moma.org/collection_images/resized/046/w500h420/CRI_255046.jpg",
+	 "MoMA_Number":624.2012,
+	 "class": [
+                    {"value": "mix color-1"},
+                    {"value": "check3"},
+                    {"value": "radio3"},
+                    {"value": "option4"}]
+    },
+
+	{"Artist":"Arthur Young",
+	 "Floor":"3F",
+	 "Department":"Architecture and Design",
+	 "Name":"Bell-47D1 Helicopter",
+	 "Img":"http://www.moma.org/collection_images/resized/900/w500h420/CRI_248900.jpg",
+	 "MoMA_Number":126.1984,
+	 "class": [
+                    {"value": "mix color-1"},
+                    {"value": "check1"},
+                    {"value": "radio3"},
+                    {"value": "option3"}]
+    },
+
+    {"Artist":"Charles Gaines ",
+	 "Floor":"1F",
+	 "Department":"Media and Performance Art",
+	 "Name":"Manifestos 2",
+	 "Img":"http://www.moma.org/collection_images/resized/322/w500h420/CRI_298322.jpg",
+	 "MoMA_Number":1206.2013,
+	 "class": [
+                    {"value": "mix color-1"},
+                    {"value": "check3"},
+                    {"value": "radio3"},
+                    {"value": "option1"}]
+    },
+
+    {"Artist":"Roe Ethridge",
+	 "Floor":"2F",
+	 "Department":"Photography",
+	 "Name":"Flower",
+	 "Img":"http://www.moma.org/collection_images/resized/598/w500h420/CRI_236598.jpg",
+	 "MoMA_Number":419.2012,
+	 "class": [
+                    {"value": "mix color-1"},
+                    {"value": "check4"}, 
+                    {"value": "radio3"},
+                    {"value": "option3"}] 
+    }
+
+]
