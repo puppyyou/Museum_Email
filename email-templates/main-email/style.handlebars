@@ -1,36 +1,36 @@
-			/*////// RESET STYLES //////*/
-			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
-			table{border-collapse:collapse;}
-			img, a img{border:0; outline:none; text-decoration:none;}
-			h1, h2, h3, h4, h5, h6{
+    /*////// RESET STYLES //////*/
+            body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+            table{border-collapse:collapse;}
+            img, a img{border:0; outline:none; text-decoration:none;}
+            h1, h2, h3, h4, h5, h6{
                 margin:0; padding:0;
                 -webkit-font-smoothing: antialiased;
                 /* -moz-font-smoothing: antialiased; - No longer available in FF */
                 font-smoothing: antialiased;
                 font-weight: lighter;
             }
-			p{margin: 1em 0;}
+            p{margin: 1em 0;}
 
-			/*////// CLIENT-SPECIFIC STYLES //////*/
-			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail/Outlook.com to display emails at full width. */
-			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div{line-height:100%;} /* Force Hotmail/Outlook.com to display line heights normally. */
-			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up. */
-			#outlook a{padding:0;} /* Force Outlook 2007 and up to provide a "view in browser" message. */
-			img{-ms-interpolation-mode: bicubic;} /* Force IE to smoothly render resized images. */
-			body, table, td, p, a, li, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;} /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
+            /*////// CLIENT-SPECIFIC STYLES //////*/
+            .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail/Outlook.com to display emails at full width. */
+            .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div{line-height:100%;} /* Force Hotmail/Outlook.com to display line heights normally. */
+            table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up. */
+            #outlook a{padding:0;} /* Force Outlook 2007 and up to provide a "view in browser" message. */
+            img{-ms-interpolation-mode: bicubic;} /* Force IE to smoothly render resized images. */
+            body, table, td, p, a, li, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;} /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
 
-			/*////// FRAMEWORK STYLES //////*/
-			.flexibleContainerCell{padding-top:20px; padding-Right:0px; padding-Left:0px;}
-			.flexibleImage{height:auto;}
-			.bottomShim{padding-bottom:20px;}
-			.imageContent, .imageContentLast{padding-bottom:20px;}
-			.nestedContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}
+            /*////// FRAMEWORK STYLES //////*/
+            .flexibleContainerCell{padding-top:20px; padding-Right:0px; padding-Left:0px;}
+            .flexibleImage{height:auto;}
+            .bottomShim{padding-bottom:20px;}
+            .imageContent, .imageContentLast{padding-bottom:20px;}
+            .nestedContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}
 
-			/*////// GENERAL STYLES //////*/
-			body, #bodyTable{background-color:#EEEEEE;}
-			#bodyCell{padding-top:40px; padding-bottom:40px;}
-/*			#emailBody{background-color:#FFFFFF; border:1px solid #DDDDDD; border-collapse:separate; border-radius:4px;}
-*/			h1, h2, h3, h4, h5, h6{color:#202020; font-family:Times; font-size:20px; line-height:125%; text-align:Left;}
+            /*////// GENERAL STYLES //////*/
+            body, #bodyTable{background-color:#EEEEEE;}
+            #bodyCell{padding-top:40px; padding-bottom:40px;}
+/*          #emailBody{background-color:#FFFFFF; border:1px solid #DDDDDD; border-collapse:separate; border-radius:4px;}
+*/          h1, h2, h3, h4, h5, h6{color:#202020; font-family:Times; font-size:20px; line-height:125%; text-align:Left;}
             #topBanner{padding: 25px; font-size: 12px}
             #topBanner h3{font-size:24px;}
             #topBannerRight{
@@ -38,8 +38,12 @@
               color: #fff;
               padding: 30px;
             }
-            #topBannerRight h3, .bottom-section h3{color:#fff;font-size: 14px;}
+            #topBannerRight h3, 
+            .bottom-section h3{
+                color:#fff;font-size: 16px;
+            }
             .bottom-section p {
+                font-size: 12px;
                 margin: 0;
                 line-height: 14px; 
                 margin-top: 5px;           
@@ -48,9 +52,9 @@
             .margin-right-fix{margin-right: 15px;}
             .noBGColor{background-color: transparent!important;}
             .caption-holder{
-			  padding: 12px;
-			  text-align: center;
-			  max-height: 12px;                
+              padding: 12px;
+              text-align: center;
+              max-height: 12px;                
             }
             .caption-holder h3{
                 font-size: 14px;
@@ -61,22 +65,22 @@
                   font-family: time;
                   font-size: 10px;
             }
-			.textContent, .textContentLast{color:#404040; font-family:courier; font-size:16px; line-height:125%; text-align:Left; padding-bottom:20px; background-color: #fff;}
-			.textContent a, .textContentLast a{color:#2C9AB7; text-decoration:underline;}
-			.textContentLast img{
-			  max-width: 100%;
-			  height: 130px;
-			  margin: 0 auto;
-			  display: block;			
-			}
-			.textContent img {width: 100%}
+            .textContent, .textContentLast{color:#404040; font-family:courier; font-size:16px; line-height:125%; text-align:Left; padding-bottom:40px; background-color: #fff;}
+            .textContent a, .textContentLast a{color:#2C9AB7; text-decoration:underline;}
+            .textContentLast img{
+              max-width: 100%;
+              height: 130px;
+              margin: 0 auto;
+              display: block;           
+            }
+            .textContent img {width: 100%}
             .nestedContainer{background-color:#E5E5E5; border:1px solid #CCCCCC;}
-			.emailButton{background-color:#2C9AB7; border-collapse:separate; border-radius:4px;}
-			.buttonContent{color:#FFFFFF; font-family:Helvetica; font-size:18px; font-weight:bold; line-height:100%; padding:15px; text-align:center;}
-			.buttonContent a{color:#FFFFFF; display:block; text-decoration:none;}
-			.emailCalendar{background-color:#FFFFFF; border:1px solid #CCCCCC;}
-			.emailCalendarMonth{background-color:#2C9AB7; color:#FFFFFF; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:bold; padding-top:10px; padding-bottom:10px; text-align:center;}
-			.emailCalendarDay{color:#2C9AB7; font-family:Helvetica, Arial, sans-serif; font-size:60px; font-weight:bold; line-height:100%; padding-top:20px; padding-bottom:20px; text-align:center;}
+            .emailButton{background-color:#2C9AB7; border-collapse:separate; border-radius:4px;}
+            .buttonContent{color:#FFFFFF; font-family:Helvetica; font-size:18px; font-weight:bold; line-height:100%; padding:15px; text-align:center;}
+            .buttonContent a{color:#FFFFFF; display:block; text-decoration:none;}
+            .emailCalendar{background-color:#FFFFFF; border:1px solid #CCCCCC;}
+            .emailCalendarMonth{background-color:#2C9AB7; color:#FFFFFF; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:bold; padding-top:10px; padding-bottom:10px; text-align:center;}
+            .emailCalendarDay{color:#2C9AB7; font-family:Helvetica, Arial, sans-serif; font-size:60px; font-weight:bold; line-height:100%; padding-top:20px; padding-bottom:20px; text-align:center;}
 
             .bottom-section{
                   background-color: #000;
@@ -84,6 +88,7 @@
                   padding: 5px 15px;
                   font-size: 8px;
                   height: 52px;
+                  width: 580px;
             }
 
             #bottom-area{

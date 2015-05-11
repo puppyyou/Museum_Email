@@ -59,7 +59,6 @@ h1 img{
 
 .ui-checkbox-on{
   /*z-index: 99;*/
-  background: url("../image/cd-icon-arrow.svg") no-repeat center center;
   width: 16px;
   height: 20px;
   background-color: rgba(93, 127, 161, 0.4);
