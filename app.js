@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -14,7 +13,6 @@ var methodOverride = require('method-override');
 var nodemailer = require('nodemailer');
 var emailTemplates = require('email-templates');
 var fs = require('fs');
-
 
 // the ExpressJS App
 var app = express();
@@ -71,6 +69,7 @@ app.get('/', function(req,res){
 
 app.post('/create/collection',function(req,res){
 	
+
 	console.log('new collection yay!')
 
 	// what's their selection
@@ -102,6 +101,8 @@ app.post('/create/collection',function(req,res){
 	  })
 
 	  console.log(emailData);
+
+
 	  // console.log(obj.email);
 	 //  console.log(emailData);
 	  sendEmail(emailData, email, username);
@@ -110,18 +111,23 @@ app.post('/create/collection',function(req,res){
 
 	function sendEmail(data, email, name){
 
+		var today = new Date();
+		today = (today.getMonth() + 1) + "-" + today.getDate() + "-" + today.getFullYear().toString().substr(2,2);
+
+
 		// SEND EMAIL
 		emailTemplates(templatesDir,function(err,template){
 			if(err) console.log(err);
 			else{
 				var locals = {
 					emailData: data,
+					today: today,
 					name: 'Leslie'
 				};
 				template('main-email', locals, function(err,html,text){
 					if(err) console.log(err);
 					var mailOptions = {
-						to: email, //... req.body.email
+						to: email,
 						// to: 'leslie.s.lin@gmail.com',
 						from: 'A Day At The Museum <adayatthemuseum@gmail.com>',
 						subject: 'Hi '+ name +' :Your Day at The Museum',
