@@ -114,8 +114,8 @@ app.post('/create/collection',function(req,res){
 		console.log("Sending email");
 
 		var today = new Date();
-		// today = (today.getMonth() + 1) + "-" + today.getDate() + "-" + today.getFullYear().toString().substr(2,2);
-		today= "15.13.00";
+		today = (today.getMonth() + 1) + "-" + today.getDate() + "-" + today.getFullYear().toString().substr(2,2);
+		// today= "15.13.00";
 
 		// SEND EMAIL
 		emailTemplates(templatesDir,function(err,template){
