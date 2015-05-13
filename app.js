@@ -120,7 +120,7 @@ app.post('/create/collection',function(req,res){
 			if(err) console.log(err);
 			else{
 				var locals = {
-					emailData: data,
+					emailData: data, //variable name : data
 					today: today,
 					name: 'Leslie'
 				};
@@ -135,6 +135,7 @@ app.post('/create/collection',function(req,res){
 					}
 					// console.log('UserEmail');
 					console.log('the data is ' + mailOptions.data);
+				
 					smtpTransport.sendMail(mailOptions, function(err,response){
 						if(err) console.log(err);
 						else{
