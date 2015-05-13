@@ -111,6 +111,8 @@ app.post('/create/collection',function(req,res){
 
 	function sendEmail(data, email, name){
 
+		console.log("Sending email");
+
 		var today = new Date();
 		today = (today.getMonth() + 1) + "-" + today.getDate() + "-" + today.getFullYear().toString().substr(2,2);
 
@@ -135,7 +137,7 @@ app.post('/create/collection',function(req,res){
 					}
 					// console.log('UserEmail');
 					console.log('the data is ' + mailOptions.data);
-				
+
 					smtpTransport.sendMail(mailOptions, function(err,response){
 						if(err) console.log(err);
 						else{
